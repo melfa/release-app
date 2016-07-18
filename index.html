@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Релизный управлятор</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div id="repositories"></div>
+
+    <script>
+      require('babel-register')
+      require('./renderer.jsx')
+    </script>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/hammerjs/hammer.min.js"></script>
+    <script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  </body>
+
+</html>
